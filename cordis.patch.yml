@@ -1,0 +1,5 @@
+# dsh-footer-buttons bundle patch
+# 在 profile 顶层插入一行；浏览器半侧由 package.json 的 dsh.client 声明加载。
+- insert:
+    - id: dsh-footer-buttons
+      name: dsh-footer-buttons

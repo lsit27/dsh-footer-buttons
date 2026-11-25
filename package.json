@@ -1,0 +1,45 @@
+{
+  "name": "dsh-footer-buttons",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Organizes the DSH sidebar footer plugin buttons into a vertical, left-aligned layout and lets you hide or restore each button from a More panel.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "screenshots.json",
+    "assets",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "ui",
+    "sidebar",
+    "layout"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lsit27/dsh-footer-buttons.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Sidebar Button Layout",
+    "description": "Arranges sidebar footer plugin buttons vertically, left-aligned and auto-sized, with a More panel to hide or restore any button.",
+    "detail": "docs/DETAIL.md"
+  }
+}
